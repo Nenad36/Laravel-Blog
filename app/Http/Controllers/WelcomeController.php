@@ -11,18 +11,6 @@ class WelcomeController extends Controller
 {
     public function index() {
 
-//        $search = request()->query('search');
-//
-//        if ($search) {
-//
-//            $posts = Post::where('title', 'LIKE', "%{$search}%")->simplePaginate(10);
-//
-//        } else {
-//
-//            $posts = Post::simplePaginate(10);
-//
-//        }
-
         return view('welcome')
 
         ->with('categories', Category::all())

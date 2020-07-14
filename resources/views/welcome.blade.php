@@ -1,7 +1,7 @@
 @extends('layouts.blog')
 
 @section('title')
-    Saas Blog
+    Laravel Blog
 @endsection
 
 
